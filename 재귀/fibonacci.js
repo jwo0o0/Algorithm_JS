@@ -12,6 +12,7 @@ function fibonacci(n) {
 //버전 2.
 //시간복잡도 O(N)의 알고리즘
 function fibonacci_better(n) {
+    //이미 해결한 문제는 저장해서 사용
     let memo = [0, 1];
     const recur = (n) => {
         if (memo[n] !== undefined) return memo[n];
