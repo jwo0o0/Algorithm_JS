@@ -1,1 +1,1 @@
-javascript로 알고리즘 풀기!
+Javascript로 알고리즘 풀기!
