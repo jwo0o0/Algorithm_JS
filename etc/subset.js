@@ -14,8 +14,6 @@ const isSubsetOf = (base, sample) => {
 }
 
 //버전 2.
-
-
 const isSubsetOf_better = (base, sample) => {
     //arr의 idx번째 요소부터 find를 찾음
     const findFromIdx = (find, idx, arr) => {
